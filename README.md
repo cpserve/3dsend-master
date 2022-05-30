@@ -1,7 +1,10 @@
 # 3dsend
 
-> Interface graphique sous Windows permettant d'installer des cias facilement ! :D
+> Graphical interface under Windows allowing to install cias easily! :D
+Original Code: https://github.com/MeatReed/3dsend 
+Credits go to: MeatReed https://github.com/MeatReed/
 
+This Pull has been Translated to English from French on the GUI and repacked by https://github.com/cpserve/ Enjoy :)
 #### Build Setup
 
 ``` bash
