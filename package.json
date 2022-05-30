@@ -1,0 +1,51 @@
+{
+  "name": "3dsend",
+  "version": "2.0.0",
+  "description": "Graphical interface under Windows allowing to install cias easily ! :D",
+  "main": "./dist/main/index.js",
+  "scripts": {
+    "dev": "node .electron-nuxt/dev.js",
+    "build": "node .electron-nuxt/build.js",
+    "test": "",
+    "preinstall": "node .electron-nuxt/check-engines.js",
+    "postinstall": "electron-builder install-app-deps "
+  },
+  "keywords": [],
+  "author": "MeatReed <tim.oumpho@gmail.com>",
+  "Translator": "Master Corn <cpserve@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/michalzaq12/electron-nuxt/blob/master/README.md",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "resolutions": {
+    "@types/node": "12.12.6"
+  },
+  "devDependencies": {
+    "@mdi/font": "5.9.55",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/vuetify": "1.11.3",
+    "@xpda-dev/core": "^0.1.6",
+    "@xpda-dev/electron-builder": "^0.2.1",
+    "@xpda-dev/electron-launcher": "^0.3.0",
+    "@xpda-dev/webpack-step": "^0.1.2",
+    "body-parser": "^1.19.0",
+    "browser-env": "3.3.0",
+    "cross-env": "7.0.3",
+    "deepmerge": "4.2.2",
+    "electron": "12.0.6",
+    "electron-builder": "22.11.3",
+    "electron-devtools-installer": "3.2.0",
+    "electron-json-storage": "^4.5.0",
+    "express": "^4.17.1",
+    "filesize": "^7.0.0",
+    "nuxt": "2.15.6",
+    "qrcode.vue": "1.7.0",
+    "roboto-fontface": "0.10.0",
+    "slugify": "^1.6.0",
+    "tcp-port-used": "^1.0.2",
+    "vuetify": "2.5.1",
+    "webpack": "4.44.2",
+    "webpack-node-externals": "2.5.2"
+  }
+}
